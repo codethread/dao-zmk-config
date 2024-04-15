@@ -1,7 +1,10 @@
 #!/usr/bin/env nu
 
-def "main test" [...message: string] {
-  let url = poll ($message | str join ' ')
+def "main check" [] {
+  let msg = git log -n 1 --format="%s"
+  let url = poll ($msg)
+  log "Complete"
+  ^open $url
 }
 
 def "main push" [...message: string] {
@@ -76,7 +79,7 @@ def poll [msg: string]: nothing -> string {
 
     if (($cmt | get message) != $msg) {
       log "Waiting"
-      sleep 5sec
+      sleep 20sec
       continue
     }
 
