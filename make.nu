@@ -79,14 +79,14 @@ def poll [msg: string]: nothing -> string {
 
     if (($cmt | get message) != $msg) {
       log "Waiting"
-      sleep 20sec
+      sleep 10sec
       continue
     }
 
     match ($cmt | get checkSuites.nodes) {
-      [] => { print "Waiting for checks"; sleep 5sec; },
+      [] => { print "Waiting for checks"; sleep 15sec; },
       [{ status: "COMPLETED", workflowRun: { url: $url } }] => { $out = $url; break },
-      [$check] => { print ($check | table --collapse); sleep 5sec; }
+      [$check] => { print ($check | table --collapse); sleep 15sec; }
     }
   }
 
