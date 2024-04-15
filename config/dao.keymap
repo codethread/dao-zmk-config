@@ -62,6 +62,16 @@
             bindings = <&kp ESCAPE>;
             key-positions = <19 20>;
         };
+
+        boot_r {
+            bindings = <&bootloader>;
+            key-positions = <11 23 35>;
+        };
+
+        boot_l {
+            bindings = <&bootloader>;
+            key-positions = <0 12 24>;
+        };
     };
 
     macros {
