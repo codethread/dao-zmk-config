@@ -87,10 +87,10 @@
 
         symbol_layer {
             bindings = <
-&trans  &kp LS(STAR)   &kp LS(UNDER)  &kp LS(PRCNT)  &kp LS(AT)    &kp LS(AT)     &kp DOT    &kp LBKT       &kp RBKT      &kp LS(DLLR)   &kp LS(LA(DLLR))  &trans
-&trans  &kp LS(EXCL)   &kp EQUAL      &kp LS(LPAR)   &kp LS(RPAR)  &kp LS(TILDE)  &kp MINUS  &kp LS(LBRC)   &kp LS(RBRC)  &arrow         &kp BSLH          &trans
-&trans  &kp LS(CARET)  &kp LS(AMPS)   &kp LS(PLUS)   &trans        &trans         &trans     &kp LS(PIPE)   &kp GRAVE     &kp LS(POUND)  &kp FSLH          &trans
-                                      &trans         &trans        &trans         &mo 4      &kp BACKSPACE  &trans
+&trans  &kp LS(STAR)   &kp LS(UNDER)  &kp LS(PRCNT)  &kp LS(AT)                   &kp LS(AT)     &kp DOT    &kp LBKT       &kp RBKT      &kp LS(DLLR)   &kp LS(LA(DLLR))  &trans
+&trans  &kp LS(EXCL)   &kp EQUAL      &kp LS(LPAR)   &hml LGUI RIGHT_PARENTHESIS  &kp LS(TILDE)  &kp MINUS  &kp LS(LBRC)   &kp LS(RBRC)  &arrow         &kp BSLH          &trans
+&trans  &kp LS(CARET)  &kp LS(AMPS)   &kp LS(PLUS)   &trans                       &trans         &trans     &kp LS(PIPE)   &kp GRAVE     &kp LS(POUND)  &kp FSLH          &trans
+                                      &trans         &trans                       &trans         &mo 4      &kp BACKSPACE  &trans
             >;
         };
 
