@@ -102,10 +102,10 @@
 
         symbol_layer {
             bindings = <
-&trans  &trans                &kp ASTRK            &kp UNDER                    &kp PERCENT                  &kp AT         &kp DOT    &kp LBKT              &kp RBKT                &kp LS(DLLR)                &kp LS(LA(DLLR))           &trans
-&trans  &hml LEFT_SHIFT EXCL  &hml LEFT_ALT EQUAL  &hml LCTRL LEFT_PARENTHESIS  &hml LGUI RIGHT_PARENTHESIS  &kp LS(TILDE)  &kp MINUS  &hmr LGUI LEFT_BRACE  &hmr LCTRL RIGHT_BRACE  &hmr LEFT_ALT GREATER_THAN  &hmr LEFT_SHIFT BACKSLASH  &trans
-&trans  &kp CARET             &kp AMPERSAND        &kp PLUS                     &trans                       &trans         &trans     &kp PIPE              &kp GRAVE               &kp HASH                    &trans                     &trans
-                                                   &trans                       &trans                       &trans         &mo 4      &kp BACKSPACE         &trans
+&trans  &trans                &kp ASTRK            &kp UNDER                    &kp PERCENT                  &kp AT     &trans     &kp LBKT              &kp RBKT                &kp DOLLAR                  &kp AT                     &trans
+&trans  &hml LEFT_SHIFT EXCL  &hml LEFT_ALT EQUAL  &hml LCTRL LEFT_PARENTHESIS  &hml LGUI RIGHT_PARENTHESIS  &kp TILDE  &kp MINUS  &hmr LGUI LEFT_BRACE  &hmr LCTRL RIGHT_BRACE  &hmr LEFT_ALT GREATER_THAN  &hmr LEFT_SHIFT BACKSLASH  &trans
+&trans  &trans                &kp CARET            &kp AMPERSAND                &kp PLUS                     &trans     &trans     &kp PIPE              &kp GRAVE               &kp HASH                    &trans                     &trans
+                                                   &trans                       &trans                       &trans     &mo 4      &kp BACKSPACE         &trans
             >;
         };
 
