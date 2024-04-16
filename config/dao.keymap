@@ -97,9 +97,9 @@
 
         symbol_layer {
             bindings = <
-&trans  &trans                &kp ASTRK            &kp UNDER                    &kp PERCENT                  &kp AT         &kp DOT    &kp LBKT              &kp RBKT                &kp LS(DLLR)                &kp LS(LA(DLLR))       &trans
-&trans  &hml LEFT_SHIFT EXCL  &hml LEFT_ALT EQUAL  &hml LCTRL LEFT_PARENTHESIS  &hml LGUI RIGHT_PARENTHESIS  &kp LS(TILDE)  &kp MINUS  &hmr LGUI LEFT_BRACE  &hmr LCTRL RIGHT_BRACE  &hmr LEFT_ALT GREATER_THAN  &hmr LEFT_SHIFT SLASH  &trans
-&trans  &kp LS(CARET)         &kp LS(AMPS)         &kp LS(PLUS)                 &trans                       &trans         &trans     &kp LS(PIPE)          &kp GRAVE               &kp LS(POUND)               &kp FSLH               &trans
+&trans  &trans                &kp ASTRK            &kp UNDER                    &kp PERCENT                  &kp AT         &kp DOT    &kp LBKT              &kp RBKT                &kp LS(DLLR)                &kp LS(LA(DLLR))           &trans
+&trans  &hml LEFT_SHIFT EXCL  &hml LEFT_ALT EQUAL  &hml LCTRL LEFT_PARENTHESIS  &hml LGUI RIGHT_PARENTHESIS  &kp LS(TILDE)  &kp MINUS  &hmr LGUI LEFT_BRACE  &hmr LCTRL RIGHT_BRACE  &hmr LEFT_ALT GREATER_THAN  &hmr LEFT_SHIFT BACKSLASH  &trans
+&trans  &kp CARET             &kp AMPERSAND        &kp PLUS                     &trans                       &trans         &trans     &kp PIPE              &kp GRAVE               &kp HASH                    &trans                     &trans
                                                    &trans                       &trans                       &trans         &mo 4      &kp BACKSPACE         &trans
             >;
         };
