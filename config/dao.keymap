@@ -60,14 +60,10 @@
     combos {
         compatible = "zmk,combos";
 
-        boot_r {
-            bindings = <&bootloader>;
-            key-positions = <11 23 35>;
-        };
-
-        boot_l {
-            bindings = <&bootloader>;
-            key-positions = <0 12 24>;
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <4 3>;
+            timeout-ms = <30>;
         };
     };
 
