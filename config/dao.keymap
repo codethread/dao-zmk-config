@@ -68,19 +68,19 @@
 
         tab_1 {
             bindings = <&kp TAB>;
-            key-positions = <32 33>;
+            key-positions = <20 21>;
             timeout-ms = <30>;
         };
 
         bspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <16 15>;
-            timeout-ms = <10>;
+            key-positions = <15 14>;
+            timeout-ms = <15>;
         };
 
         del {
             bindings = <&kp DELETE>;
-            key-positions = <2 3>;
+            key-positions = <15 16>;
         };
 
         under {
