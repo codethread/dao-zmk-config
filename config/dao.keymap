@@ -62,25 +62,25 @@
 
         escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <19 20>;
+            key-positions = <4 3>;
             timeout-ms = <10>;
         };
 
         tab_1 {
             bindings = <&kp TAB>;
-            key-positions = <20 21>;
+            key-positions = <7 8>;
             timeout-ms = <30>;
         };
 
         bspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <15 14>;
+            key-positions = <26 27>;
             timeout-ms = <15>;
         };
 
         del {
             bindings = <&kp DELETE>;
-            key-positions = <15 16>;
+            key-positions = <31 32>;
         };
 
         under {
@@ -121,7 +121,7 @@
 
         number_layer {
             bindings = <
-&kp F11  &kp F1              &kp F2            &kp F3         &kp F4        &kp F5  &kp F6  &kp F7       &kp F8         &kp F9            &kp F10              &kp F12
+&kp F11  &kp F1              &kp F2            &kp F3         &kp F4        &kp F5  &kp F6  &kp F7        &kp F8         &kp F9            &kp F10             &kp F12
 &trans   &hml LEFT_SHIFT N1  &hml LEFT_ALT N2  &hml LCTRL N3  &hml LGUI N4  &kp N5  &kp N6  &hmr LGUI N7  &hmr LCTRL N8  &hmr LEFT_ALT N9  &hmr LEFT_SHIFT N0  &trans
 &trans   &trans              &trans            &trans         &trans        &trans  &trans  &trans        &trans         &trans            &trans              &trans
                                                &trans         &mo 4         &trans  &trans  &trans        &trans
