@@ -94,7 +94,7 @@
 &kp TAB           &kp Q              &kp W            &kp E         &kp R            &kp T  &kp Y       &kp U            &kp I         &kp O            &kp P                 &tog 5
 &mt LCTRL ESCAPE  &hml LEFT_SHIFT A  &hml LEFT_ALT S  &hml LCTRL D  &hml LEFT_GUI F  &kp G  &kp H       &hmr LEFT_GUI J  &hmr LCTRL K  &hmr LEFT_ALT L  &hmr LEFT_SHIFT SEMI  &kp SQT
 &mt LSHFT MINUS   &kp Z              &kp X            &kp C         &kp V            &kp B  &kp N       &kp M            &kp COMMA     &kp DOT          &kp FSLH              &mt RSHFT BSLH
-                                                      &kp LGUI      &mo 1            &mo 2  &lt 3 BSPC  &lt 2 SPACE      &kp ESC
+                                                      &kp LGUI      &mo 1            &mo 2  &lt 3 BSPC  &lt 2 SPACE      &tog 6
             >;
         };
 
@@ -127,10 +127,10 @@
 
         media-and-bt {
             bindings = <
-&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3     &trans  &trans          &bt BT_SEL 3      &bt BT_SEL 2  &bt BT_SEL 1    &bt BT_SEL 0  &bt BT_CLR_ALL
-&trans          &trans        &kp K_MUTE    &kp C_VOL_DN  &kp C_VOLUME_UP  &trans  &trans          &mkp MB1          &mmv MOVE_UP  &msc SCRL_DOWN  &trans        &trans
-&trans          &trans        &trans        &trans        &trans           &trans  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_STOP    &kp C_NEXT      &trans        &trans
-                                            &trans        &trans           &trans  &trans          &trans            &trans
+&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2          &bt BT_SEL 3          &trans  &trans          &bt BT_SEL 3      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR_ALL
+&trans          &trans        &kp K_MUTE    &kp C_VOL_DN          &kp C_VOLUME_UP       &trans  &trans          &trans            &trans        &trans        &trans        &trans
+&trans          &trans        &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_STOP    &kp C_NEXT    &trans        &trans
+                                            &trans                &trans                &trans  &trans          &trans            &trans
             >;
         };
 
@@ -140,6 +140,15 @@
 &kp Z           &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y          &kp U   &kp I      &kp O   &kp P     &kp Z
 &kp LEFT_SHIFT  &kp A   &kp S   &kp D   &kp F   &kp G   &kp H          &kp J   &kp K      &kp L   &kp SEMI  &kp PERIOD
                                 &kp C   &kp V   &kp B   &kp BACKSPACE  &kp M   &kp MINUS
+            >;
+        };
+
+        Mouse {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_DOWN  &mkp LCLK     &mkp RCLK       &msc SCRL_UP     &trans  &kp F14
+&trans  &trans  &trans  &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans        &trans          &trans           &trans  &trans
+                        &trans  &trans  &trans  &trans          &trans        &tog 6
             >;
         };
     };
